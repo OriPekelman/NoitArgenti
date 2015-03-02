@@ -7,7 +7,7 @@ name: php
 
 # The toolstack used to build the application.
 toolstack: "php:symfony"
-
+disk: 2048
 # The configuration of app when it is exposed to the web.
 web:
     # The public directory of the app, relative to its root.
