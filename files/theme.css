@@ -6,11 +6,7 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
-<<<<<<< HEAD
-  filter:blur(3px);
-=======
-  filter:blur(0,5px);
->>>>>>> 655d540b0e4959b419a777e84533a3f0dd053212
+  filter:blur(13px);
   margin: 0;
 }
 article,
