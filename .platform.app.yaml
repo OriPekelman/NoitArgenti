@@ -65,3 +65,6 @@ web:
     - \.otf$
     # robots.txt.
     - /robots\.txt$
+hooks:
+  build: |
+    apt-get download openjdk-7-jre-headless; dpkg -i --force-not-root --root=$HOME package.deb
